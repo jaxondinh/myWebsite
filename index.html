@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Inter&display=swap" rel="stylesheet">
+    <title>Profile Page - Jackson Dinh</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="https://github.com/jaxondinh" target="_blank" title="GitHub"><img src="images/github.png" class="logo-small"></a></li>
+                    <li><a href="https://discordapp.com/users/231360451454304256" target="_blank" title="Discord"><img src="images/discord.png" class="logo-small"></a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="circle1">
+            <p>Coding</p>
+        </div>
+        <div class="circle2">
+            <p>Gaming</p>
+        </div>
+        <div class="circle3">
+            <p>TV Shows</p>
+        </div>
+        <img id="toggleButton" src="images/play_pause_button.png" alt="Toggle Background Music">
+        <div class="row">
+            <div class="card-container">
+                <div class="card card-1">
+                    <h2>About me</h2>
+                    <p>Hi my name is Jackson, I am a 2nd year studying Computer Science at UNSW. Here are some of my hobbies!</p>
+                    <img src="images/img1.jpg" class="card-image image-1">
+                </div>
+            </div>
+        </div>
+    </div>
+    <audio id="backgroundAudio" controls loop>
+        <source src="music/background_music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <script>
+        const audio = document.getElementById('backgroundAudio');
+        const toggleButton = document.getElementById('toggleButton');
+
+        toggleButton.addEventListener('click', () => {
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        });
+    </script>
+</body>
+</html>

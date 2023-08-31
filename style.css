@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.card {
+    color: rgb(235, 235, 235);
+    background-color: rgba(255, 126, 238, 0.5);
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 18px 18px;
+    margin: 6px;
+    transition: 0.4s;
+}
+
+.card:hover {
+    background-color: rgba(255, 126, 238, 0.5);
+    transform: scale(1.02);
+}
+
+.card-image {
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.image-1 {
+    width: 80%;
+    height: 65%;
+}
+
+
+p {
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.navbar{
+    height: 16%;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+.logo-small {
+    width: 40px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.logo-small:hover {
+    transform: translateY(-4px);
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden
+}
+
+.circle1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(images/coding.webp);
+    border-radius: 50%;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 250px;
+    right: 300px;
+}
+
+.circle1:hover {
+    box-shadow: 0 0 100px #70369D;
+}
+
+.circle2 {
+    width: 200px;
+    height: 200px;
+    background-image: url(images/gaming.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 250px;
+    left: 300px;
+}
+
+.circle2:hover {
+    box-shadow: 0 0 100px #E81416;
+}
+
+.circle3 {
+    width: 200px;
+    height: 200px;
+    background-image: url(images/tvshows.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    left: calc(50% - 100px);
+}
+
+.circle3:hover {
+    box-shadow: 0 0 100px #79C314;
+}
+
+#toggleButton {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
