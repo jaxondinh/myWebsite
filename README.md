@@ -64,7 +64,7 @@ This project requires a web browser of your choice.
    ```sh
    git clone https://github.com/jaxondinh/myWebsite.git
    ```
-2. Open index.html in your chosen web browser
+2. Open `index.html` in your chosen web browser
 
 <!-- USAGE EXAMPLES -->
 ## Usage
