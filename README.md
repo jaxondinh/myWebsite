@@ -68,8 +68,8 @@ This project requires a web browser of your choice.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-myWebsite has no interactive features except for a hover affect on each hobby.
-
+myWebsite is a simple display of my hobbies and some information about me at the time (2023). It has some simple hover effects as shown:
+![](images/myWebsiteUsage.gif)
 <!-- LICENSE -->
 ## License
 
