@@ -65,9 +65,6 @@ This project requires a web browser of your choice.
    git clone https://github.com/jaxondinh/myWebsite.git
    ```
 2. Open index.html in your chosen web browser
-   ```sh
-   npm install
-   ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
