@@ -47,47 +47,40 @@
 myWebsite is a simple website made for CSESoc Trainee Program 2023, it was made after first learning HTML and CSS. The premise being "my hobbies".
 
 ### Built With
-* ![Static Badge](https://img.shields.io/badge/HTML5-E34F26?logo=HTML5&link=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FMDN%2FWriting_guidelines%2FWriting_style_guide%2FCode_style_guide%2FHTML%23doctype)
+* [![HTML][HTML5]][HTML5-url]
+* [![CSS][CSS-logo]][CSS-url]
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
-To get a local copy up and running follow these simple example steps.
+This website is currently not deployed. To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-This project requires npm, instructions can be found:
-https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+This project requires a web browser of your choice.
 
 ### Installation
 1. Clone the repo
    ```sh
-   git clone https://github.com/jaxondinh/learnTrading.git
+   git clone https://github.com/jaxondinh/myWebsite.git
    ```
-2. Install NPM packages
+2. Open index.html in your chosen web browser
    ```sh
    npm install
-   ```
-3. Run the project
-   ```sh
-   npm start
    ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-learnTrading was made to be used in two different manners:
-1. To present each candle pattern within a display card with its name, description and type.
-<img src="images/usageImage1.png" alt="usage1">
+myWebsite has no interactive features except for a hover affect on each hobby.
 
-2. To have a flashcard like functionto help learn and memorize patterns, with feature such as random candle, answer check and help.
-![](images/randomFeature.gif)
-
-![](images/answerCheck.gif)
-
-![](images/help.gif)
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+[HTML5]: https://img.shields.io/badge/HTML5-E34F26?logo=HTML5
+[HTML5-url]: https://developer.mozilla.org/en-US/docs/Glossary/HTML5
+[CSS-logo]: https://img.shields.io/badge/CSS3-1572B6?logo=CSS3
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
